@@ -70,7 +70,7 @@ export default function App() {
         {/* Header card — white box, like privacy-portal */}
         <header className="header-card">
           <div className="header-card__left">
-            <span className="header-card__icon">🧠</span>
+            <img src="/logo.png" alt="DataCerebrium" className="header-card__logo" />
             <div className="header-card__info">
               <h1 className="header-card__title">DataCerebrium</h1>
               <p className="header-card__sub">
@@ -95,7 +95,7 @@ export default function App() {
           <div className="login-card">
             <div className="login-card__brand">
               <div className="login-card__brand-inner">
-                <span className="login-card__brand-icon">🧠</span>
+                <img src="/logo.png" alt="DataCerebrium" className="login-card__brand-logo" />
                 <h2 className="login-card__brand-title">
                   Your Data,<br />Our Analysis
                 </h2>

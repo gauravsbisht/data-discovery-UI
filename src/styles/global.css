@@ -64,6 +64,12 @@ body {
   line-height: 1;
 }
 
+.header-card__logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
 .header-card__info {
   display: flex;
   flex-direction: column;
@@ -130,6 +136,13 @@ body {
 .login-card__brand-icon {
   font-size: 48px;
   display: block;
+  margin-bottom: 24px;
+}
+
+.login-card__brand-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
   margin-bottom: 24px;
 }
 

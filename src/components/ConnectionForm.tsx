@@ -65,8 +65,8 @@ export default function ConnectionForm({
         >
           <option value="postgresql">PostgreSQL</option>
           <option value="mysql">MySQL</option>
-          <option value="snowflake" disabled>Snowflake (Coming Soon)</option>
-          <option value="mongodb" disabled>MongoDB (Coming Soon)</option>
+          <option value="snowflake" disabled>Snowflake</option>
+          <option value="mongodb" disabled>MongoDB</option>
         </select>
       </div>
 
