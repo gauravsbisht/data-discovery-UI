@@ -11,20 +11,20 @@ interface Props {
 
 const DEFAULT_PARAMS: ConnectionParams = {
   db_type: 'postgresql',
-  host: 'localhost',
+  host: 'aws-1-ap-south-1.pooler.supabase.com',
   port: 5432,
   database: 'postgres',
-  schema_name: 'redacted_db',
-  user: '',
-  password: '',
+  schema_name: 'client_redact_schema',
+  user: 'postgres.awazsdefkhhmtmsxgkna',
+  password: '2wsx@WSX1qaz!QAZ',
 };
 
 // Default ports for each database type
 const DB_DEFAULTS: Record<string, { port: number; database: string }> = {
-  postgresql: { port: 5432, database: 'postgres' },
-  mysql: { port: 3306, database: 'testdb' },
+  postgresql: { port: 5432, database: '' },
+  mysql: { port: 3306, database: '' },
   snowflake: { port: 443, database: '' },
-  mongodb: { port: 27017, database: 'test' },
+  mongodb: { port: 27017, database: '' },
 };
 
 export default function ConnectionForm({
