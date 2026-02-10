@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_API_URL: https://datacerebrium-api.bravegrass-4a0f206f.centralindia.azurecontainerapps.io
+          VITE_API_BASE_URL: https://datacerebrium-api.bravegrass-4a0f206f.centralindia.azurecontainerapps.io/api/v1
 
       - name: Deploy to Azure Static Web Apps
         id: deploy
