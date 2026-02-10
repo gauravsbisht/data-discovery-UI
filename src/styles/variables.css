@@ -1,0 +1,61 @@
+/* ========================================================================
+   DataCerebrium — Design Tokens
+   Exact match of privacy-portal (ConsentAxis) look & feel
+   ======================================================================== */
+
+:root {
+  /* Primary — portal blue palette (NOT admin purple) */
+  --dc-primary: #4f89f7;
+  --dc-primary-dark: #2563eb;
+  --dc-primary-light: #eaf3ff;
+  --dc-primary-bg: #eaf3ff;
+  --dc-gradient: linear-gradient(135deg, #4f89f7 0%, #2563eb 100%);
+
+  /* Neutrals — matches Portal.css slate palette */
+  --dc-text: #1e293b;
+  --dc-text-secondary: #64748b;
+  --dc-text-muted: #94a3b8;
+  --dc-bg: #f8fafc;
+  --dc-white: #ffffff;
+  --dc-border: #e2e8f0;
+  --dc-border-light: #f1f5f9;
+
+  /* Status colors */
+  --dc-success: #10b981;
+  --dc-success-bg: #dcfce7;
+  --dc-success-text: #15803d;
+  --dc-warning: #f59e0b;
+  --dc-warning-bg: #fef3c7;
+  --dc-warning-text: #92400e;
+  --dc-danger: #ef4444;
+  --dc-danger-bg: #fee2e2;
+  --dc-danger-text: #991b1b;
+  --dc-info: #3b82f6;
+  --dc-info-bg: #dbeafe;
+  --dc-info-text: #1e40af;
+
+  /* Risk level colors */
+  --dc-risk-critical: #ef4444;
+  --dc-risk-high: #f97316;
+  --dc-risk-medium: #f59e0b;
+  --dc-risk-low: #10b981;
+
+  /* Shadows — exact Portal.css values */
+  --dc-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --dc-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.15);
+  --dc-shadow-primary: 0 4px 12px rgba(79, 137, 247, 0.3);
+
+  /* Shape — matches Portal.css: 12px cards, 8px inputs/buttons */
+  --dc-radius: 12px;
+  --dc-radius-sm: 8px;
+  --dc-radius-xs: 6px;
+  --dc-radius-pill: 100px;
+
+  /* Typography */
+  --dc-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Spacing */
+  --dc-container-max: 1200px;
+  --dc-gap: 16px;
+  --dc-gap-lg: 24px;
+}
