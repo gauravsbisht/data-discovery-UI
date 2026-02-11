@@ -51,7 +51,7 @@ export default function ConnectionForm({
   };
 
   const canTest = params.host && params.database && params.user && params.password;
-  const canScan = testResult?.success === true;
+  const canScan = canTest;
 
   return (
     <div className="connection-form">
@@ -163,7 +163,7 @@ export default function ConnectionForm({
         <button
           className="btn btn--primary"
           onClick={() => onScan(params)}
-          disabled={!canScan || isScanning}
+          disabled={!canScan || isScanning || isTesting}
           data-testid="btn-scan"
         >
           {isScanning ? '⏳ Scanning...' : '🔍 Scan Now'}
